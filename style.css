@@ -106,3 +106,15 @@ p {
     justify-content:  center;
     align-items: center;
 }
+
+@media (max-width: 768px){
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+}
