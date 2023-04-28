@@ -82,3 +82,25 @@ p {
     justify-content:  center;
     align-items: center;
 }
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border:  2px solid #c90e0e;
+    color: #fff;
+    text-decoration: none;
+    background: #c90e0e;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
