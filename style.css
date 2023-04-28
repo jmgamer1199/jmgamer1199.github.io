@@ -117,4 +117,8 @@ p {
     .sau {
         height: 120vh;
     }
+
+    .btn {
+        padding: 9px 30px;
+    }
 }
