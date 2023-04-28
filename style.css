@@ -59,7 +59,7 @@ body {
 
 .header {
     height: 60vh !important;
-    background-color: aqua;
+    background-color: rgba(79, 187, 187, 0.589);
     background-size: cover;
 }
 
@@ -82,7 +82,7 @@ p {
     margin-top: 15px;
     padding: 10px 40px;
     border:  2px solid #c90e0e;
-    color: #fff;
+    color: #d1d1d1;
     text-decoration: none;
     background: #c90e0e;
 }
