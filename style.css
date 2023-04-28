@@ -143,4 +143,9 @@ section img:hover {
     .btn {
         padding: 9px 30px;
     }
+
+    section {
+        width: 300px;
+        height: 115;
+    }
 }
