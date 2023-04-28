@@ -68,19 +68,13 @@ body {
     font-size: 60px;
     font-weight: 600px;
     text-transform: uppercase;
+    color: #fff;
 }
 
 p {
     margin-bottom: 40px;
     font-size: 18px;
-}
-
-.content {
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content:  center;
-    align-items: center;
+    color: #fff;
 }
 
 .btn {
@@ -103,4 +97,12 @@ p {
 
 .btn-home a {
     margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
 }
