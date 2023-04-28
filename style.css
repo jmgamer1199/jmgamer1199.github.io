@@ -9,6 +9,8 @@
 body {
     text-align: center;
     font-family: sans-serif;
+    background-color: rgb(76, 145, 145);
+    background-size: cover;
 }
 
 .head {
@@ -59,8 +61,6 @@ body {
 
 .header {
     height: 60vh !important;
-    background-color: rgba(79, 187, 187, 0.589);
-    background-size: cover;
 }
 
 .title {
@@ -85,6 +85,7 @@ p {
     color: #d1d1d1;
     text-decoration: none;
     background: #c90e0e;
+    border-radius: 10px;
 }
 
 .btn:hover {
