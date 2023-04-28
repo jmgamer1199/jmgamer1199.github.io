@@ -68,13 +68,13 @@ body {
     font-size: 60px;
     font-weight: 600px;
     text-transform: uppercase;
-    color: #fff;
+    color: #000000;
 }
 
 p {
     margin-bottom: 40px;
     font-size: 18px;
-    color: #fff;
+    color: #000000;
 }
 
 .btn {
