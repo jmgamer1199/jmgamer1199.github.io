@@ -10,9 +10,11 @@ body {
     text-align: center;
     font-family: sans-serif;
 
-    background: linear-gradient(blue, red); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     background-size: cover;
+}
+
+#grad {
+        background: linear-gradient(blue, red); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .head {
