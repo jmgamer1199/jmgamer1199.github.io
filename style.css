@@ -94,6 +94,7 @@ p {
 
 .btn:hover {
     background: none;
+    color: #000000;
 }
 
 .btn-home {
@@ -192,4 +193,16 @@ footer{
     section img:hover {
         width: 50;
     }
+
+    .navbar {
+        display: flex;
+        margin-right: 60px;
+    }
+
+    .copyright {
+        margin-right: 50px;
+    }
+
+    /* ola :D */
+
 }
