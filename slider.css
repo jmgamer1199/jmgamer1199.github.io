@@ -40,3 +40,15 @@
         background-size: cover;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .position {
+        top: 65%;
+        left: 50%;
+    }
+
+    .slider{
+        height: 30%;
+        width: 80%
+    }
+}
