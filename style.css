@@ -4,6 +4,7 @@
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
+    box-sizing: border-box;
 }
 
 body {
@@ -16,7 +17,49 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
 }
-    
+
+/* NUEVO */
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 63px;
+    margin: 0 8px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+li a.active, li a:hover{
+    background: #3f3f3f;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 63px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+
+ /* VIEJO */
 
 .head {
     display: flex;
@@ -33,29 +76,11 @@ body {
     margin-left: 30px;
 }
 
-.navbar {
-    display: flex;
-    margin-right: 10px;
-}
-
 .logo  a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     font-size: 20px;
-}
-
-.navbar a {
-    display: block;
-    padding: 23px 20px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-
-.navbar a:hover {
-    background: #3f3f3f;
 }
 
 .header {
@@ -173,7 +198,21 @@ footer{
     margin-right: 160px;
 }
 
-@media (max-width: 768px){
+/* TABLET */
+
+@media (max-width: 952px){
+    nav ul li a{
+        font-size: 16px;
+    }
+
+    .logo a{
+        font-size: 17px;
+    }
+}
+
+/* MOVIL */
+
+@media (max-width: 858px){ /* 768px */
 
     .title {
         margin-bottom: 0;
@@ -197,13 +236,41 @@ footer{
         width: 50;
     }
 
-    .navbar {
-        display: flex;
-        margin-right: 60px;
-    }
-
     .copyright {
         margin-right: 50px;
+    }
+
+    /* NUEVO */
+
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #944b4b;
+        top: 63px;
+        left: -100%;
+        text-align: center;
+        transform: all .5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    li a:hover, li.active{
+        background: none;
+        color: aqua;
+    }
+    #check:checked ~ ul{
+        left: 0;
     }
 
     /* ola :D */
