@@ -208,6 +208,10 @@ footer{
     .logo a{
         font-size: 17px;
     }
+
+    .copyright {
+        margin-right: 10px;
+    }
 }
 
 /* MOVIL */
@@ -237,7 +241,7 @@ footer{
     }
 
     .copyright {
-        margin-right: 50px;
+        margin-right: 10px;
     }
 
     /* NUEVO */
