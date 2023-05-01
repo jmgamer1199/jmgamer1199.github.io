@@ -1,0 +1,21 @@
+:root{
+    --background-color: #3a3a3a;
+}
+
+.title{
+    color: #fff;
+}
+
+p{
+    color: #fff;
+}
+
+nav ul dark-mode-toggle{
+    color: #fff;
+}
+
+@media (max-width: 858px){
+    ul{
+        background: #1d1d1d;
+    }
+    }
