@@ -6,6 +6,10 @@
     color: #fff;
 }
 
+.texto{
+    color: #fff;
+}
+
 p{
     color: #fff;
 }
@@ -17,6 +21,11 @@ nav ul dark-mode-toggle{
 .social-icon:hover{
     background-color: #121212;
     filter: invert(1);
+}
+
+.btn:hover {
+    background: none;
+    color: #fff;
 }
 
 .footer-dark-mode{
