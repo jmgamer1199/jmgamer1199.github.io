@@ -194,6 +194,10 @@ footer{
     margin-bottom: 1rem;
 }
 
+.social-icons-container{
+    margin-left: 66px;
+}
+
 .social-icon{
     height: 50px;
     width: 50px;
