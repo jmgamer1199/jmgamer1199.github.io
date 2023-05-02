@@ -1,0 +1,54 @@
+.position {
+    position: absolute;
+    top:65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider {
+    background-image: url(Images/Rus.png);
+    background-size: cover;
+    height: 30%;
+    width: 30%;
+    border-radius: 10px;
+    animation: animate 35s infinite;
+}
+
+@keyframes animate {
+    20% {
+        background-image: url(Images/Rus-Cama-Comida.png);
+        background-size: cover;
+    }
+
+    40% {
+        background-image: url(Images/Rus-Cama-Juguetes.png);
+        background-size: cover;
+    }
+
+    60% {
+        background-image: url(Images/Rus.png);
+        background-size: cover;
+    }
+
+    80% {
+        background-image: url(Images/CamaRus.png);
+        background-size: cover;
+    }
+
+    100% {
+        background-image: url(Images/TodosLosItems.png);
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .position {
+        top: 65%;
+        left: 50%;
+    }
+
+    .slider{
+        height: 30%;
+        width: 80%
+    }
+}
