@@ -26,6 +26,12 @@ body {
 
 /* NUEVO */
 
+.texto{
+    margin-bottom: 20px;
+}
+
+ /* VIEJO */
+
 .nav-dark-mode{
     display: none;
 }
@@ -67,9 +73,6 @@ li a.active, li a:hover{
 #check{
     display: none;
 }
-
-
- /* VIEJO */
 
 .head {
     display: flex;
@@ -136,6 +139,7 @@ p {
 
 .btn-home {
     display: flex;
+    margin-top: 20px;
 }
 
 .btn-home a {
@@ -347,6 +351,14 @@ footer{
         height: 33px;
         width: 33px;
         border-radius: 33px;
+    }
+
+    .social-icons-container{
+        margin-left: 0px;
+    }
+
+    .texto{
+        margin-top: 30px;
     }
     
     /* ola :D */

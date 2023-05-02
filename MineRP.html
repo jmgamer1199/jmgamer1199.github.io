@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: light)" href="light.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="dark.css">
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <title>Descargas | Jmgamer</title>
+</head>
+<body>
+    
+    <div class="head"> 
+
+        <div class="logo">
+            <a href="index.html">Jm</a>
+        </div>
+
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Descargas.html">Descargas</a></li>
+                <dark-mode-toggle
+                class="nav-dark-mode"
+                id="dark-mode-toggle-1"
+                appearance="toggle"
+                dark="Dark"
+                light="Light"
+              ></dark-mode-toggle>
+            </ul>
+        </nav>
+        
+    </div>
+
+    <header class="content header">
+        <h2 class="title">Jm Texturepack</h2>
+        <h1 class="texto">Este texturepack añade pocas cosas por ejemplo un nuevo fondo de menu y algunas pocas texturas y nombres similares al de java</h1>
+
+        <div class="btn-home">
+            <a href="https://www.mediafire.com/file/dy45ltxj44oe480/JmTexturepack%2528Bedrock%2529.rar/file" class="btn">Bedrock</a>
+            <a href="https://www.mediafire.com/file/7o29swmk3k2mdxg/JmTexturepack%2528Java%2529.rar/file" class="btn">Java</a>
+        </div>
+
+    </header>
+
+    <footer>
+        <div class="social-icons-container">
+            <a href="https://www.instagram.com/jmgamer.1199/" class="social-icon"></a>
+            <a href="https://www.twitch.tv/jmgamer1199" class="social-icon"></a>
+            <a href="https://www.youtube.com/@_JmGamer1199_" class="social-icon"></a>
+            <a href="https://twitter.com/jmgamer1199" class="social-icon"></a>
+            <a href="https://discord.gg/Ap8MPDX" class="social-icon"></a>
+        </div>
+        <ul class="footer-menu-container">
+            <li class="menu-item"></li>
+                <dark-mode-toggle
+                class="footer-dark-mode"
+                id="dark-mode-toggle-1"
+                appearance="toggle"
+                dark="Dark"
+                light="Light"
+              ></dark-mode-toggle>
+        </ul>
+        <span class="copyright">&copy;2023, Jmgamer1199. All rights reserved.</span>
+    </footer>
+    
+</body>
+</html>
