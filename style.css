@@ -84,6 +84,7 @@ li a.active, li a:hover{
     position: fixed;
     width: 100%;
     z-index: 100;
+    border-bottom: 2px groove #838383;
 }
 
 .logo {
@@ -188,7 +189,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    border-top: 2px groove #383838;
 }
 
 .social-icons-container, .footer-menu-container{
