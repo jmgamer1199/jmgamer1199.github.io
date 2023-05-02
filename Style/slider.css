@@ -6,7 +6,7 @@
 }
 
 .slider {
-    background-image: url(Images/Rus.png);
+    background-image: url(Images/ImagesRus/Rus.png);
     background-size: cover;
     height: 30%;
     width: 30%;
@@ -16,27 +16,27 @@
 
 @keyframes animate {
     20% {
-        background-image: url(Images/Rus-Cama-Comida.png);
+        background-image: url(Images/ImagesRus/Rus-Cama-Comida.png);
         background-size: cover;
     }
 
     40% {
-        background-image: url(Images/Rus-Cama-Juguetes.png);
+        background-image: url(Images/ImagesRus/Rus-Cama-Juguetes.png);
         background-size: cover;
     }
 
     60% {
-        background-image: url(Images/Rus.png);
+        background-image: url(Images/ImagesRus/Rus.png);
         background-size: cover;
     }
 
     80% {
-        background-image: url(Images/CamaRus.png);
+        background-image: url(Images/ImagesRus/CamaRus.png);
         background-size: cover;
     }
 
     100% {
-        background-image: url(Images/TodosLosItems.png);
+        background-image: url(Images/ImagesRus/TodosLosItems.png);
         background-size: cover;
     }
 }
