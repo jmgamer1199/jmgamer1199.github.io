@@ -19,6 +19,10 @@ nav ul dark-mode-toggle{
     color: #000000;
 }
 
+footer{
+    background-color: #afafaf;
+}
+
 .head{
     background: #d6d6d6;
 }
@@ -29,23 +33,6 @@ nav ul dark-mode-toggle{
 
 .checkbtn{
     color: #000000;
-}
-
-footer{
-    background-color: #afafaf;
-}
-
-.footer-dark-mode{
-    background-color: #afafaf; 
-}
-
-.footer-menu-container{
-    background-color: #afafaf; 
-}
-
-.copyright{
-    color: #000000;
-    opacity: 0.6;
 }
 
 .social-icon:hover{
@@ -71,6 +58,19 @@ footer{
 
 .social-icon:nth-of-type(5){
     background-image: url(Icons/brand-discord-light.png);
+}
+
+.footer-menu-container{
+    background-color: #afafaf; 
+}
+
+.footer-dark-mode{
+    background-color: #afafaf; 
+}
+
+.copyright{
+    color: #000000;
+    opacity: 0.6;
 }
 
 @media (max-width: 858px){

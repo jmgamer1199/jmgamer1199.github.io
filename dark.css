@@ -2,14 +2,6 @@
     --background-color: #3a3a3a;
 }
 
-.title{
-    color: #fff;
-}
-
-.texto{
-    color: #fff;
-}
-
 p{
     color: #fff;
 }
@@ -18,18 +10,22 @@ nav ul dark-mode-toggle{
     color: #fff;
 }
 
-.social-icon:hover{
-    background-color: #121212;
-    filter: invert(1);
-}
-
 .btn:hover {
     background: none;
     color: #fff;
 }
 
-.footer-dark-mode{
-    color: #fff; 
+.title{
+    color: #fff;
+}
+
+.texto{
+    color: #fff;
+}
+
+.social-icon:hover{
+    background-color: #121212;
+    filter: invert(1);
 }
 
 .social-icon:nth-of-type(1){
@@ -50,6 +46,10 @@ nav ul dark-mode-toggle{
 
 .social-icon:nth-of-type(5){
     background-image: url(Icons/brand-discord-dark.png);
+}
+
+.footer-dark-mode{
+    color: #fff; 
 }
 
 @media (max-width: 858px){
