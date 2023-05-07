@@ -1,28 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style404.css">
+    <link rel="stylesheet" href="General_style.css">
+    <link rel="stylesheet" href="Index_style.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: light)" href="light.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="dark.css">
+    <link rel="shortcut icon" href="Icons/favicon.ico" type="image/x-icon">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JDBHS8L2C6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-JDBHS8L2C6');
+    </script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
     <title>ERROR 404</title>
 </head>
 
 <body>
 
-    <div class="container">
+    <div class="head"> 
 
-        <h1>404</h1>
-
-        <h1>La pagina no esta disponible.</h1>
-
-        <div class="btn-home">
-
-            <a href="index.html" class="btn">Volver</a>
-
+        <div class="logo">
+            <a href="index.html">Jm</a>
         </div>
 
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Descargas.html">Descargas</a></li>
+                <dark-mode-toggle
+                class="nav-dark-mode"
+                id="dark-mode-toggle-1"
+                appearance="toggle"
+                dark="Dark"
+                light="Light"
+              ></dark-mode-toggle>
+            </ul>
+        </nav>
+        
     </div>
+
+    <header class="content header">
+        <h2 class="title">404</h2>
+
+        <p>
+            La pagina no esta disponible.
+        </p>
+
+    </header>
+
+    <footer>
+        <div class="social-icons-container">
+            <a href="https://www.instagram.com/jmgamer.1199/" class="social-icon"></a>
+            <a href="https://www.twitch.tv/jmgamer1199" class="social-icon"></a>
+            <a href="https://www.youtube.com/@_JmGamer1199_" class="social-icon"></a>
+            <a href="https://twitter.com/jmgamer1199" class="social-icon"></a>
+            <a href="https://discord.gg/Ap8MPDX" class="social-icon"></a>
+        </div>
+        <ul class="footer-menu-container">
+            <li class="menu-item"></li>
+                <dark-mode-toggle
+                class="footer-dark-mode"
+                id="dark-mode-toggle-1"
+                appearance="toggle"
+                dark="Dark"
+                light="Light"
+              ></dark-mode-toggle>
+        </ul>
+        <span class="copyright">&copy;2023, Jmgamer1199. All rights reserved.</span>
+    </footer>
 
 </body>
 
