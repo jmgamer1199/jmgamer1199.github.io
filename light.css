@@ -33,6 +33,57 @@ footer{
     color: #000000;
 }
 
+.server-title{
+    font-size: 30px;
+    font-weight: 600px;
+    margin-bottom: 7px;
+    align-items: center;
+    color: #000000;
+}
+
+.server-name{
+    font-size: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+    color: #000000;
+}
+
+.ip-server{
+    margin-bottom: 4px;
+    align-items: center;
+    color: #000000;
+}
+
+.port-server{
+    margin-bottom: 4px;
+    align-items: center;
+    color: #000000;
+}
+
+.difficult-server{
+    margin-bottom: 4px;
+    align-items: center;
+    color: #000000;
+}
+
+.server-version{
+    margin-bottom: 4px;
+    align-items: center;
+    color: #000000;
+}
+
+.server-crossplay{
+    margin-bottom: 4px;
+    align-items: center;
+    color: #000000;
+}
+
+.server-state{
+    margin-bottom: 4px;
+    align-items: center;
+    color: #000000;
+}
+
 .checkbtn{
     color: #000000;
 }
