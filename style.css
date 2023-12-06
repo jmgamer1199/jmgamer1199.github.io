@@ -61,49 +61,6 @@ section {
     margin-bottom: 30px;
 }
 
-.server-title{
-    font-size: 30px;
-    font-weight: 600px;
-    margin-bottom: 7px;
-    align-items: center;
-}
-
-.server-name{
-    font-size: 20px;
-    margin-bottom: 10px;
-    align-items: center;
-}
-
-.ip-server{
-    margin-bottom: 4px;
-    align-items: center;
-}
-
-.port-server{
-    margin-bottom: 4px;
-    align-items: center;
-}
-
-.difficult-server{
-    margin-bottom: 4px;
-    align-items: center;
-}
-
-.server-version{
-    margin-bottom: 4px;
-    align-items: center;
-}
-
-.server-crossplay{
-    margin-bottom: 4px;
-    align-items: center;
-}
-
-.server-state{
-    margin-bottom: 4px;
-    align-items: center;
-}
-
 section img {
     width: 0px;
     flex-grow: 1;
