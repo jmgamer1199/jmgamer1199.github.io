@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+:root{
+    
+    color-scheme: light dark;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: var(--background-color);
+    /* background-color: cornflowerblue; 
+    /* background: -webkit-linear-gradient(to left, #C4E0E5, #4CA1AF); */
+    /* background: linear-gradient(to left, #C4E0E5, #4CA1AF); */
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 63px;
+    margin: 0 8px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+li a.active, li a:hover{
+    background: #3f3f3f;
+    transition: .5s;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #000000;
+}
+
+section {
+    display: flex;
+    width: 600px;
+    height: 230px;
+    margin-bottom: 30px;
+}
+
+.terraria-server{
+    align-items: center;
+    margin: 20px;
+}
+
+.server-title{
+    font-size: 30px;
+    font-weight: 30px;
+    margin-bottom: 7px;
+    align-items: center;
+}
+
+.server-name{
+    font-size: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.ip-server{
+    margin-bottom: 4px;
+    align-items: center;
+}
+
+.port-server{
+    margin-bottom: 4px;
+    align-items: center;
+}
+
+.difficult-server{
+    margin-bottom: 4px;
+    align-items: center;
+}
+
+.server-version{
+    margin-bottom: 4px;
+    align-items: center;
+}
+
+.server-crossplay{
+    margin-bottom: 4px;
+    align-items: center;
+}
+
+.server-state{
+    margin-bottom: 4px;
+    align-items: center;
+}
+
+section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #3f3f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 2px groove #383838;
+
+}
+
+/* NUEVO */
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+    border-bottom: 2px groove #838383;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo  a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#check{
+    display: none;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 63px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border:  2px solid #c90e0e;
+    color: #d1d1d1;
+    text-decoration: none;
+    background: #FF0000;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: none;
+    color: #000000;
+}
+
+.btn-home {
+    display: flex;
+    margin-top: 20px;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.nav-dark-mode{
+    display: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.texto{
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.social-icons-container{
+    margin-left: 66px;
+}
+
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #d2d2d2;
+    background-image: url(Icons/brand-instagram-light.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.social-icon:hover{
+    background-color: #121212;
+    filter: invert(1);
+}
+
+.social-icon:nth-of-type(2){
+    background-image: url(Icons/brand-twitch-light.png);
+}
+
+.social-icon:nth-of-type(3){
+    background-image: url(Icons/brand-youtube-light.png);
+}
+
+.social-icon:nth-of-type(4){
+    background-image: url(Icons/brand-twitter-light.png);
+}
+
+.social-icon:nth-of-type(5){
+    background-image: url(Icons/brand-discord-light.png);
+}
+
+.footer-menu-container{
+    list-style-type: none;
+    color: #000000;
+    font-size: 18px;
+}
+
+.menu-item, .footer-dark-mode{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.menu-item, .footer-dark-mode:hover:hover{
+    color: #f2f2f2;
+}
+
+.copyright{
+    color: #f2f2f2;
+    opacity: 0.6;
+    text-align: center;
+    margin-right: -50px;
+}
+
+/* TABLET */
+@media (max-width: 952px){
+    nav ul li a{
+        font-size: 16px;
+    }
+
+    .logo a{
+        font-size: 17px;
+    }
+
+    .copyright {
+        margin-right: 0px;
+    }
+}
+
+/* MOVIL */
+@media (max-width: 858px){ /* 768px  858px */
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .btn {
+        padding: 9px 20px;
+    }
+
+    section {
+        width: 300px;
+        height: 115;
+    }
+    
+    section img:hover {
+        width: 50;
+    }
+
+    .copyright {
+        margin-right: 0px;
+    }
+
+    /* NUEVO */
+
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #465869;
+        top: 63px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    li a:hover, li.active{
+        background: none;
+        color: aqua;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .nav-dark-mode{
+        display: block;
+        position: fixed;
+        height: 120vh;
+        padding-left: 40%;
+    }
+    .footer-dark-mode{
+        display: none;
+    }
+
+    .social-icon{
+        height: 33px;
+        width: 33px;
+        border-radius: 33px;
+    }
+
+    .social-icons-container{
+        margin-left: 0px;
+    }
+
+    .texto{
+        margin-top: 30px;
+    }
+}
+
+ /* NO SE DONDE VA */
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
